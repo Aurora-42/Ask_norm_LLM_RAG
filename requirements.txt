@@ -1,0 +1,5 @@
+cohere
+PyPDF2
+chromadb
+uuid
+

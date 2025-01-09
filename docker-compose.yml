@@ -1,0 +1,12 @@
+
+services:
+  openai-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - COHERE_TOKEN=${COHERE_TOKEN}
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/root
