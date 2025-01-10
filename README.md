@@ -37,7 +37,7 @@ Before starting, ensure you have the following installed:
 
 	Run the container:
 	```
-	docker exec -it ask_norm-openai-app-1 bash
+	docker exec -it ask_norm_LLM_RAG-openai-app-1 bash
 	```
 
 4. Process the document
